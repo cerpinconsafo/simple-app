@@ -1,6 +1,15 @@
 import React, { useState } from 'react';
 
 function ContactCard() {
+
+    // ******************************************************
+    // ******************************************************
+
+    // Goals to fix in the ContactCard:
+        // 1. flowers check box option, where when checked, Shows two more fields; one field is Favorite Flower/s and the next field is a calendar where you can pick the date in which was the last time you got this person flowers.
+        // 2. add a reminder option to specific aspects. Have users be able to pick and choose what notifications they get and remindeds etc.
+
+        
   const [formData, setFormData] = useState({
     name: '',
     email: '',
