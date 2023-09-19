@@ -1,5 +1,11 @@
 # This project is mainly written through AI interactions using chatGPT. 
 
+# link to conversation
+
+https://chat.openai.com/c/766ecf4e-6307-4bf0-b167-2e3f25d4f6d6
+
+# Intro
+
 I am trying to direct chatGpt to write me the code I want by typing very specific directions/questions.
 
 Usually, it will be able to fix things I ask it to. Sometimes, the code produces and error. At that point, I will show the AI the error I recieived, and hope they can find me a better solution or a way to fix it. 
