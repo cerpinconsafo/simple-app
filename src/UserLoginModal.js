@@ -1,6 +1,6 @@
 // UserLoginModal.js
 import React from 'react';
-import './UserLoginModal.css'; // Import the CSS file for the modal styles
+import './App.css'; // Import the CSS file for the modal styles
 
 function UserLoginModal() {
   return (
@@ -21,8 +21,8 @@ function UserLoginModal() {
             <input type="password" id="password" name="password" />
           </div>
           <div className="modal-options">
-            <a href="#">Forgot User</a>
-            <a href="#">Forgot Password</a>
+            <a href="/">Forgot User</a>
+            <a href="/">Forgot Password</a>
           </div>
           <button type="submit">Login</button>
         </form>

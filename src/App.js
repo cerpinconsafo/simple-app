@@ -1,19 +1,16 @@
 // src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import UserLoginModal from './UserLoginModal';
-import ForgotUser from './ForgotUser';
-import ForgotPassword from './ForgotPassword';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import LandingPage from './LandingPage'; // Import your landing page component
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Switch>
-          <Route path="/forgot-user" component={ForgotUser} />
-          <Route path="/forgot-password" component={ForgotPassword} />
-          <Route path="/" component={UserLoginModal} />
-        </Switch>
+        <Routes>
+          <Route exact path="/" component={LandingPage} />
+     
+                </Routes>
       </Router>
     </div>
   );
